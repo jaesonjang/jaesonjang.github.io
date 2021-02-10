@@ -88,9 +88,11 @@
 ## 4.4 Constrained optimization
 - 함수를 최적화 할 때, 모든 x에 대해서 최적화 하는 것이 아니라, 특정 집합 S에 속하는 x에 대해서 최적화 하는 방법
   - S: Feasible points
-- Constrained optimization의 예시: Karush-Kuhn-Tucker (KKT)
+  - 예시 1: 제약조건을 고려하여 gradient descent를 수정
+    - Step size를 정하고 gradient descent step을 만든 후, 결과가 다시 S로 돌아오게끔 projection해줌  
+- 예시 2: Karush-Kuhn-Tucker (KKT)
+  - 참고: https://m.blog.naver.com/PostView.nhn?blogId=jaehyubious&logNo=220353696172&proxyReferer=https:%2F%2Fwww.google.com%2F
 
 ## 4.5 Example: Linear Least Squares
-- KKT와 linear least squares 계산 과정에 대해서는 아래 블로그 참고
-  - https://leejunhyun.github.io/deep%20learning/2018/09/27/DLB-04/
+- 참고: https://leejunhyun.github.io/deep%20learning/2018/09/27/DLB-04/
 ![_config.yml]({{ site.baseurl }}/assets/Ch4_KKT.png)
