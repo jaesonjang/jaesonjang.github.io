@@ -41,8 +41,8 @@
   - 위의 방법을 method of steepest descent 혹은 gradient descent라고 함
 - 위에서 구한 방향으로 새로운 x값을 찾음
   - (eq 4.5)
-  - 입실론: learning rate
-  - learning rate는 보통 상수를 사용하나, line search라는 방법에서는 몇 가지 learning rate 값을 동시에 테스트해서 f를 최소화 시키는 값을 고름
+  - $\epsilon$: learning rate
+  - Learning rate는 보통 상수를 사용하나, line search라는 방법에서는 몇 가지 learning rate 값을 동시에 테스트해서 f를 최소화 시키는 값을 고름
 
 ### 4.3.1 Beyond the Gradient: Jacobian and Hessian Matrices
 - Jacobian matrix: f: Rm -> Rn에서 모든 편미분에 대한 행렬
@@ -52,12 +52,12 @@
   - 0: curvature가 없음, cost function의 기울기가 1일 때, 입실론 만큼 감소
   - +: 위로 볼록, cost function이 입실론 보다 적게 감소
 - Hessian matrix
-  - (eq 4.6)
+  - (Eq 4.6)
   - 다변수를 입력 받을 때의 모든 조합을 고려하는 second derivative와 같은 개념
   - Gradient의 Jacobian이라 할 수 있음
-  - 미분의 순서가 바뀌어도 값을 유지되므로, 2차 미분이 continuous하다면 symmetric matrix임
-  - real, symmetric하므로 real eigenvalues와 orthogonal basis eigenvector로 분해 가능
-  - dtHd: unit vector d방향으로의 2차 미분
+  - 미분의 순서가 바뀌어도 값은 유지되므로, 2차 미분이 continuous하다면 symmetric matrix임
+  - Real, symmetric하므로 real eigenvalues와 orthogonal basis eigenvector로 분해 가능
+  - $d^{T}Hd$: unit vector $d$방향으로의 2차 미분
   - 2차 미분과 Hessian matrix를 이용하여 적절한 learning rate를 예상 할 수 있음
     - (eq 4.8)
     - (eq 4.9)
@@ -69,7 +69,7 @@
   - 양/음인 eigenvalue가 모두 있음: 방향에 따라 min/max 여부가 다름
   - (fig 4.5)
 - Hessian의 condition number가 클 때, gradient descent는 효과가 좋지 않은 예시
-  - 한 방향으로는 급격하게 변하고 (예-lamda_max에 대한 eigenvector 방향), 다른 방향으로는 조금 변함 (예-lamda_min에 대한 eigenvector 방향)
+  - 한 방향으로는 급격하게 변하고 (예-$\lamda_{max}$에 대한 eigenvector 방향), 다른 방향으로는 조금 변함 (예-$\lamda_{min}$에 대한 eigenvector 방향)
   - (fig 4.6)
 - Newton’s method로 이와 같은 문제를 해결 가능
   - second-order Taylor series expansion을 이용해 x(0) 근처의 f(x)를 근사함
