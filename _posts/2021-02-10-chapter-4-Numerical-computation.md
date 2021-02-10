@@ -91,7 +91,6 @@
     - Step size를 정하고 gradient descent step을 만든 후, 결과가 다시 S로 돌아오게끔 projection해줌  
   - 예시 2: Karush-Kuhn-Tucker (KKT)
     - 제약조건이 부등식일 때 적용 가능 (ex-f(x) > 0)
-    - 참고: https://m.blog.naver.com/PostView.nhn?blogId=jaehyubious&logNo=220353696172&proxyReferer=https:%2F%2Fwww.google.com%2F
 ![_config.yml]({{ site.baseurl }}/assets/Ch4_KKT.png)
 
 ## 4.5 Example: Linear Least Squares
