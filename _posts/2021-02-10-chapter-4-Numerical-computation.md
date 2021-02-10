@@ -10,7 +10,7 @@
       - x의 원소가 모두 c일 경우: 1/n
       - 하지만 c가 매우 작을 경우: underflow가 발생해 값이 정의되지 않는다.
       - c가 매우 클 경우: overflow가 발생해 값이 정의되지 않는다.
-      - 해결 예시) softmax(z) where z = x - max,i(xi)로 문제를 해결한다.
+      - 해결 예시) softmax(z) where z = x - max,i(xi)로 만들어 큰 element를 없애 문제를 해결한다.
 
 ## 4.2 Poor conditioning
 - Conditioning: 입력 변수의 작은 변화에 대해 함수 값이 얼마나 빨리 변하는지
