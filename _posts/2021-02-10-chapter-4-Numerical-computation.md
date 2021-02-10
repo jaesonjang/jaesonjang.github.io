@@ -31,7 +31,7 @@
 - Global minimum: 전체 정의역에 대해 가장 작은 함수값
   - 여러개의 local minima를 갖거나 평평한 saddle point가 많은 경우에는 optimization이 어렵다.
 - (fig 4.3)
-- f: Rn->R의 경우, 편미분을 사용하여 gradient를 계산: $\nabla_{x}f(x)$역세모 식
+- f: Rn->R의 경우, 편미분을 사용하여 gradient를 계산: $\nabla_{x}f(x)$
   - critical point: 모든 element가 0
 - directional derivative in direction u (a unit vector)
   - 함수 f의 u  방향으로의 기울기
@@ -78,10 +78,10 @@
   - 하지만 현실적으로 f는 국소적으로 positive deﬁnite quadratic이고 전체적으로는 아니므로, 여러번 반복해야 함
   - 이와 같이 gradient descent보다 더 빠르게 critical point로 도달할 수 있지만, local minimum 근처 한정이며 saddle point에서는 오히려 안 좋을 수 있음
 - First-order optimization algorithms의 예시 - gradient 만을 이용하는 gradient descent
-- Second-order - Hessian matrix를 이용하는 Newton’s method
+- Second-order optimization예시 - Hessian matrix를 이용하는 Newton’s method
 - 함수에 제약을 걸어 성능을 보장하기도 함: 예) Lipschitz continuous 혹은 Lipschitz continuous derivatives를 가지는 함수
   - 변화율이 Lipschitz constant L에 의해 제한되는 함수 f
-  - (eq 4.13)
+  - (Eq 4.13)
   - 입력의 변화가 작을 때, 출력의 변화가 작을 것이라 보장함
 - Convex optimization: 강한 제약을 이용해 좋은 성능을 보장함
   - 모든 지점에서 Hessian이 positive semidefinite (eigenvalue가 모두 0 이상)인 confex function에만 적용 가능함
@@ -93,7 +93,8 @@
 - Constrained optimization의 예시: Karush-Kuhn-Tucker (KKT)
 
 ## 4.5 Example: Linear Least Squares
-
+- KKT와 linear least squares 계산 과정에 대해서는 아래 블로그 참조
+  - https://leejunhyun.github.io/deep%20learning/2018/09/27/DLB-04/
 
 
 
