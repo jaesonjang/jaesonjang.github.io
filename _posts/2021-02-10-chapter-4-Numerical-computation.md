@@ -91,6 +91,8 @@
 - 함수를 최적화 할 때, 모든 x에 대해서 최적화 하는 것이 아니라, 특정 집합 S에 속하는 x에 대해서 최적화 하는 방법
   - S: Feasible points
 - Constrained optimization의 예시: Karush-Kuhn-Tucker (KKT)
+  - 아래 그림 참고
+![_config.yml]({{ site.baseurl }}/assets/Ch4_KKT.png)
 
 ## 4.5 Example: Linear Least Squares
 - KKT와 linear least squares 계산 과정에 대해서는 아래 블로그 참조
