@@ -60,7 +60,7 @@
   - $d^{T}Hd$: unit vector $d$방향으로의 2차 미분
   - 2차 미분과 Hessian matrix를 이용하여 적절한 learning rate를 예상 할 수 있음
     - <Eq 4.8 ~ 4.10>
-    - 최악의 경우: g가 가장 큰 eigenvalue $\lambda_{max]$와 상응하는 H의 eigenvector의 방향과 일치 -> step size = 1/$\lambda_{max}$가 됨
+    - 최악의 경우: g가 가장 큰 eigenvalue $\lambda_{max}$와 상응하는 H의 eigenvector의 방향과 일치 -> step size = 1/ $\lambda_{max}$가 됨
 - Hessian matrix, H를 이용하면 critical point의 성질을 알 수 있음
   - H가 positive definite (모든 eigenvalue가 양수): local minimum
   - H가 negative definite (모든 eigenvalue가 음수): local maximum
