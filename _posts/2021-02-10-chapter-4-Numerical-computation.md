@@ -14,7 +14,7 @@
 
 ## 4.2 Poor conditioning
 - Conditioning: 입력 변수의 작은 변화에 대해 함수 값이 얼마나 빨리 변하는지
-- $\A \in \mathbb{R}^{nn}$이 eigenvalue decomposition을 가질 때, condition number = maxi,j|lamdai/lamdaj| (Eq 4.2)
+- $\A \in \mathbb{R}^{nn}$이 eigenvalue decomposition을 가질 때, condition number = (Eq 4.2)
   - 가장 크고 작은 eigenvalue 사이의 비율
   - 이 숫자가 크면 역행렬을 계산하는 등의 작업이 input의 에러에 대해 큰 차이를 만들 수 있음
   - 역행렬을 계산할때의 rounding error 때문이 아니라, 행렬 고유의 성질임
@@ -31,12 +31,12 @@
 - Global minimum: 전체 정의역에 대해 가장 작은 함수값
   - 여러개의 local minima를 갖거나 평평한 saddle point가 많은 경우에는 optimization이 어렵다.
 - (fig 4.3)
-- f: Rn->R의 경우, 편미분을 사용하여 gradient를 계산: 역세모 식
+- f: Rn->R의 경우, 편미분을 사용하여 gradient를 계산: $\nabla_{x}f(x)$역세모 식
   - critical point: 모든 element가 0
 - directional derivative in direction u (a unit vector)
   - 함수 f의 u  방향으로의 기울기
   - 함수 f를 최소화하기 위해 f를 가장 빠르게 감소시키는 방향을 찾고자 함
-  - (eq 4.3, 4.4)
+  - (Eq 4.3, 4.4)
   - u에 무관한 텀을 무시하면, min u cos theta로 간소화되고, u가 gradient와 반대 방향일 때 최소가 됨
   - 위의 방법을 method of steepest descent 혹은 gradient descent라고 함
 - 위에서 구한 방향으로 새로운 x값을 찾음
