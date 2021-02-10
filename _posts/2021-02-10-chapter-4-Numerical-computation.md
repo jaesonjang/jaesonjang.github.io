@@ -5,16 +5,16 @@
 - 디지털 컴퓨터로 숫자를 처리하는 이상 rounding error가 발생할 수 밖에 없다.
   - underflow: 0에 가까운 숫자가 0으로 처리되어 발생하는 문제
     - 예) 의도치않게 분모에 0이 입력되어 계산 오류가 발생 할 수 있다.
-  - overflow: 큰 숫자가 $\pm\infty$ 혹은 -\infty로 처리되어 발생하는 문제
+  - overflow: 큰 숫자가 $\pm\infty$로 처리되어 발생하는 문제
     - 예) 안정화되지 않은 값의 원소를 가지는 벡터 x의 softmax 함수 값 계산 (Eq 4.1)
       - x의 원소가 모두 c일 경우: 1/n
       - 하지만 c가 매우 작을 경우: underflow가 발생해 값이 정의되지 않는다.
       - c가 매우 클 경우: overflow가 발생해 값이 정의되지 않는다.
-      - 해결 예시) softmax(z) where z = x - maxi(xi)로 문제를 해결한다.
+      - 해결 예시) softmax(z) where z = x - max,i(xi)로 문제를 해결한다.
 
 ## 4.2 Poor conditioning
 - Conditioning: 입력 변수의 작은 변화에 대해 함수 값이 얼마나 빨리 변하는지
-- (A 포함 Rn*n)이 eigenvalue decomposition을 가질 때, condition number = maxi,j|lamdai/lamdaj| (Eq 4.2)
+- $\A \in \mathbb{R}^{n*n}$이 eigenvalue decomposition을 가질 때, condition number = maxi,j|lamdai/lamdaj| (Eq 4.2)
   - 가장 크고 작은 eigenvalue 사이의 비율
   - 이 숫자가 크면 역행렬을 계산하는 등의 작업이 input의 에러에 대해 큰 차이를 만들 수 있음
   - 역행렬을 계산할때의 rounding error 때문이 아니라, 행렬 고유의 성질임
