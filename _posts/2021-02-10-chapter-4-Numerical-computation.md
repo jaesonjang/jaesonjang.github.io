@@ -90,9 +90,10 @@
   - S: Feasible points
   - 예시 1: 제약조건을 고려하여 gradient descent를 수정
     - Step size를 정하고 gradient descent step을 만든 후, 결과가 다시 S로 돌아오게끔 projection해줌  
-- 예시 2: Karush-Kuhn-Tucker (KKT)
-  - 참고: https://m.blog.naver.com/PostView.nhn?blogId=jaehyubious&logNo=220353696172&proxyReferer=https:%2F%2Fwww.google.com%2F
+  - 예시 2: Karush-Kuhn-Tucker (KKT)
+    - 제약조건이 부등식일 때 적용 가능 (ex-f(x) > 0)
+    - 참고: https://m.blog.naver.com/PostView.nhn?blogId=jaehyubious&logNo=220353696172&proxyReferer=https:%2F%2Fwww.google.com%2F
 
 ## 4.5 Example: Linear Least Squares
-- 참고: https://leejunhyun.github.io/deep%20learning/2018/09/27/DLB-04/
+- 자세한 계산 과정 풀이: https://leejunhyun.github.io/deep%20learning/2018/09/27/DLB-04/
 ![_config.yml]({{ site.baseurl }}/assets/Ch4_KKT.png)
