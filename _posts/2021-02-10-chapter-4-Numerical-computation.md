@@ -31,7 +31,6 @@
 - Global minimum: 전체 정의역에 대해 가장 작은 함수값
   - 여러개의 local minima를 갖거나 평평한 saddle point가 많은 경우에는 optimization이 어렵다.
 <fig 4.3>
-- f: Rn->R의 경우, 편미분을 사용하여 gradient를 계산: $\nabla_{x}f(x)$
   - critical point: 모든 element가 0
 - directional derivative in direction u (a unit vector)
   - 함수 f의 u  방향으로의 기울기
@@ -93,7 +92,7 @@
   - 예시 2: Karush-Kuhn-Tucker (KKT)
     - 제약조건이 부등식일 때 적용 가능 (ex-f(x) > 0)
     - 참고: https://m.blog.naver.com/PostView.nhn?blogId=jaehyubious&logNo=220353696172&proxyReferer=https:%2F%2Fwww.google.com%2F
+![_config.yml]({{ site.baseurl }}/assets/Ch4_KKT.png)
 
 ## 4.5 Example: Linear Least Squares
 - 자세한 계산 과정 풀이: https://leejunhyun.github.io/deep%20learning/2018/09/27/DLB-04/
-![_config.yml]({{ site.baseurl }}/assets/Ch4_KKT.png)
