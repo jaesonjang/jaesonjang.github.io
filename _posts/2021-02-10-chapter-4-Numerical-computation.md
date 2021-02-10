@@ -14,7 +14,7 @@
 
 ## 4.2 Poor conditioning
 - Conditioning: 입력 변수의 작은 변화에 대해 함수 값이 얼마나 빨리 변하는지
-- $A \in \mathbb{R}^{nn}$이 eigenvalue decomposition을 가질 때, condition number = (Eq 4.2)
+- $A \in \mathbb{R}^{n\times n}$이 eigenvalue decomposition을 가질 때, condition number = (Eq 4.2)
   - 가장 크고 작은 eigenvalue 사이의 비율
   - 이 숫자가 크면 역행렬을 계산하는 등의 작업이 input의 에러에 대해 큰 차이를 만들 수 있음
   - 역행렬을 계산할때의 rounding error 때문이 아니라, 행렬 고유의 성질임
