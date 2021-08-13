@@ -3,6 +3,30 @@ layout: page
 title: About
 ---
 
-**Not Pure Poole** is a simple, beautiful, and powerful Jekyll theme for blogs. It is built on [Poole](https://github.com/poole/poole) and [Pure](https://purecss.io/).
+## Research experience
+- 2020-09 ~ Current: Research scientist, Looxid Labs
+  - Analyzing eye-tracking/EEG data of Alzheimer patients
+  
+- 2014-03 ~ 2020-08: Graduate researcher, KAIST
+  - Modling visual process through retino-cortical pathway
+  - Examining functions of untrained artificial neural networks
+  
 
-For more information about Not Pure Poole, please browse the [README](https://github.com/vszhub/not-pure-poole) file.
+## Education
+- 2016-03 ~ 2020.08: **Ph.D.**, Bio and Brain Engineering, KAIST (Daejeon, Republic of Korea)
+  - Advisor: Prof. Se-Bum Paik
+- 2014-03 ~ 2016.02: **M.S.**, Bio and Brain Engineering, KAIST (Daejeon, Republic of Korea)
+  - Advisor: Prof. Se-Bum Paik
+- 2010-02 ~ 2014.02: **B.S.**, Bio and Brain Engineering, KAIST (Daejeon, Republic of Korea)
+  - Double major: Mathematical Sciences
+  - Minor: Business and Technology Management
+
+
+## Awards
+- PhD Thesis Award for Excellence, Department of Bio and Brain Engineering in KAIST, 2021 
+- Student Travel Awards, Annual Computational Neuroscience Meeting (CNS), 2019 
+- Best Student Poster Presentation Award, Annual Computational Neuroscience Meeting (CNS), 2017 
+- Best Poster Presentation Awards, The Korean Physical Society Spring Meeting (KPS), 2015 
+- Excellence Award, Computational Neuroscience Winter School, 2015 
+- Best Poster Presentation Awards, Korean Society for Computational Neuroscience Annual Meeting (Cbrain), 2014 
+- Best Poster Presentation Awards, The Korean Physical Society Spring Meeting (KPS), 2014 
