@@ -1,5 +1,8 @@
-## Contact
+---
+layout: page
+title: Contact
+---
 
-### mail:
+## Email address:
 - jaeson.jang@looxidlabs.com
 - jaesonjang@alumni.kaist.ac.kr
