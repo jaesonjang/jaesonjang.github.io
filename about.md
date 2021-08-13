@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: Jaeson Jang, Ph.D.
 ---
 
 ## Research experience
