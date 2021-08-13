@@ -1,3 +1,8 @@
+---
+layout: page
+title: Publications
+---
+
 † Co-first authors, § Co-corresponding authors
 
 ## As first author
